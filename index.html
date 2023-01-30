@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TODO APP</title>
+  <link rel="stylesheet" type="text/css" href="css/todoapp.css">
+    
+</head>
+<body>
+  <h1 class="app-title">TODO LIST</h1>
+  <div id="todo-view">
+    <ul id="list-content">
+    </ul>
+
+    <p id="input-add-item">
+      <input type="text" id="input-content">
+      <button type="button" id="button-add-item">ADD</button>
+    </p>
+    <p>
+      <button type="button" id="button-view-finished">VIEW FINISHED</button>
+    </p>
+  </div>
+  <div id="finished-view" class="hidden">
+    <ul id="finished-list-content">
+    </ul>
+    <p>
+      <button type="button" id="button-return">RETURN</button>
+    </p>
+  </div>
+  <script src="model/timeStamp.js"></script>
+  <script src="model/todoItem.js"></script>
+  <script src="model/todoList.js"></script>
+  <script src="item.js"></script>
+  <script src="list.js"></script>
+  <script src="todoapp.js"></script>
+</body>
+</html>

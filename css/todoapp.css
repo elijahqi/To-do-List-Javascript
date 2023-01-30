@@ -1,0 +1,19 @@
+ul {
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.time-stamp {
+  font-size: small;
+  color: #888;
+  padding: 0 10px;
+}
+
+.btn-del {
+  margine-left: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
